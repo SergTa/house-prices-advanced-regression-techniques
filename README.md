@@ -1,5 +1,5 @@
 # house-prices-advanced-regression-techniques
-MSSubClass: Identifies the type of dwelling involved in the sale.	
+MSSubClass: Identifies the type of dwelling involved in the sale. # Определяет тип жилья, участвующего в продаже	
 
         20	1-STORY 1946 & NEWER ALL STYLES
         30	1-STORY 1945 & OLDER
@@ -18,7 +18,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-MSZoning: Identifies the general zoning classification of the sale.
+MSZoning: Identifies the general zoning classification of the sale. #Определяет общую классификацию зонирования объекта продажи
 		
        A	Agriculture
        C	Commercial
@@ -29,57 +29,57 @@ MSZoning: Identifies the general zoning classification of the sale.
        RP	Residential Low Density Park 
        RM	Residential Medium Density
 	
-LotFrontage: Linear feet of street connected to property
+LotFrontage: Linear feet of street connected to property #Линейные футы улицы, соединенной с объектом недвижимости
 
-LotArea: Lot size in square feet
+LotArea: Lot size in square feet  # Размер участка в квадратных футах
 
-Street: Type of road access to property
+Street: Type of road access to property # Улица: Тип дороги, по которой можно подъехать к объекту недвижимости
 
        Grvl	Gravel	
        Pave	Paved
        	
-Alley: Type of alley access to property
+Alley: Type of alley access to property # Аллея: Тип подъездной аллеи к собственности
 
        Grvl	Gravel
        Pave	Paved
        NA 	No alley access
 		
-LotShape: General shape of property
+LotShape: General shape of property # Форма участка: Общая форма объекта недвижимости
 
        Reg	Regular	
        IR1	Slightly irregular
        IR2	Moderately Irregular
        IR3	Irregular
        
-LandContour: Flatness of the property
+LandContour: Flatness of the property #Описание участка: Ровность участка
 
        Lvl	Near Flat/Level	
        Bnk	Banked - Quick and significant rise from street grade to building
        HLS	Hillside - Significant slope from side to side
        Low	Depression
 		
-Utilities: Type of utilities available
+Utilities: Type of utilities available # Коммунальные услуги: Тип доступных коммунальных услуг
 		
        AllPub	All public Utilities (E,G,W,& S)	
        NoSewr	Electricity, Gas, and Water (Septic Tank)
        NoSeWa	Electricity and Gas Only
        ELO	Electricity only	
 	
-LotConfig: Lot configuration
+LotConfig: Lot configuration #
 
-       Inside	Inside lot
-       Corner	Corner lot
-       CulDSac	Cul-de-sac
-       FR2	Frontage on 2 sides of property
+       Inside	Inside lot   Внутри
+       Corner	Corner lot   Угловой 
+       CulDSac	Cul-de-sac   Тупик
+       FR2	Frontage on 2 sides of property  Фасад с 2-х сторон дома
        FR3	Frontage on 3 sides of property
 	
-LandSlope: Slope of property
+LandSlope: Slope of property # Уклон участка
 		
        Gtl	Gentle slope
        Mod	Moderate Slope	
        Sev	Severe Slope
 	
-Neighborhood: Physical locations within Ames city limits
+Neighborhood: Physical locations within Ames city limits #Окрестности: Физические местоположения в черте города Эймс
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -107,7 +107,7 @@ Neighborhood: Physical locations within Ames city limits
        Timber	Timberland
        Veenker	Veenker
 			
-Condition1: Proximity to various conditions
+Condition1: Proximity to various conditions # Условие 1: Близость к различным условиям
 	
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
@@ -119,7 +119,7 @@ Condition1: Proximity to various conditions
        RRNe	Within 200' of East-West Railroad
        RRAe	Adjacent to East-West Railroad
 	
-Condition2: Proximity to various conditions (if more than one is present)
+Condition2: Proximity to various conditions (if more than one is present) # Близость к различным условиям (если присутствует более одного)
 		
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
@@ -131,7 +131,7 @@ Condition2: Proximity to various conditions (if more than one is present)
        RRNe	Within 200' of East-West Railroad
        RRAe	Adjacent to East-West Railroad
 	
-BldgType: Type of dwelling
+BldgType: Type of dwelling # Тип жилища
 		
        1Fam	Single-family Detached	
        2FmCon	Two-family Conversion; originally built as one-family dwelling
@@ -139,7 +139,7 @@ BldgType: Type of dwelling
        TwnhsE	Townhouse End Unit
        TwnhsI	Townhouse Inside Unit
 	
-HouseStyle: Style of dwelling
+HouseStyle: Style of dwelling       Стиль жилища
 	
        1Story	One story
        1.5Fin	One and one-half story: 2nd level finished
@@ -147,10 +147,10 @@ HouseStyle: Style of dwelling
        2Story	Two story
        2.5Fin	Two and one-half story: 2nd level finished
        2.5Unf	Two and one-half story: 2nd level unfinished
-       SFoyer	Split Foyer
+       SFoyer	Split Foyer              Раздельное фойе
        SLvl	Split Level
 	
-OverallQual: Rates the overall material and finish of the house
+OverallQual: Rates the overall material and finish of the house  Общая оценка: Оценивает общий материал и отделку дома
 
        10	Very Excellent
        9	Excellent
@@ -163,7 +163,7 @@ OverallQual: Rates the overall material and finish of the house
        2	Poor
        1	Very Poor
 	
-OverallCond: Rates the overall condition of the house
+OverallCond: Rates the overall condition of the house  Общий показатель: Оценивает общее состояние дома
 
        10	Very Excellent
        9	Excellent
@@ -176,11 +176,11 @@ OverallCond: Rates the overall condition of the house
        2	Poor
        1	Very Poor
 		
-YearBuilt: Original construction date
+YearBuilt: Original construction date   Год постройки: Первоначальная дата постройки
 
-YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)   Год переделки: Дата переделки (совпадает с датой строительства, если никаких переделок или дополнений нет)
 
-RoofStyle: Type of roof
+RoofStyle: Type of roof  Тип крыши
 
        Flat	Flat
        Gable	Gable
@@ -189,7 +189,7 @@ RoofStyle: Type of roof
        Mansard	Mansard
        Shed	Shed
 		
-RoofMatl: Roof material
+RoofMatl: Roof material  Кровельный материал
 
        ClyTile	Clay or Tile
        CompShg	Standard (Composite) Shingle
@@ -200,7 +200,7 @@ RoofMatl: Roof material
        WdShake	Wood Shakes
        WdShngl	Wood Shingles
 		
-Exterior1st: Exterior covering on house
+Exterior1st: Exterior covering on house  Наружное покрытие дома
 
        AsbShng	Asbestos Shingles
        AsphShn	Asphalt Shingles
@@ -220,7 +220,7 @@ Exterior1st: Exterior covering on house
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
 	
-Exterior2nd: Exterior covering on house (if more than one material)
+Exterior2nd: Exterior covering on house (if more than one material)   Наружное покрытие дома (если используется более одного материала)
 
        AsbShng	Asbestos Shingles
        AsphShn	Asphalt Shingles
@@ -240,7 +240,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
 	
-MasVnrType: Masonry veneer type
+MasVnrType: Masonry veneer type  Тип облицовки каменной кладки
 
        BrkCmn	Brick Common
        BrkFace	Brick Face
@@ -248,9 +248,9 @@ MasVnrType: Masonry veneer type
        None	None
        Stone	Stone
 	
-MasVnrArea: Masonry veneer area in square feet
+MasVnrArea: Masonry veneer area in square feet   Площадь облицовки каменной кладки в квадратных футах
 
-ExterQual: Evaluates the quality of the material on the exterior 
+ExterQual: Evaluates the quality of the material on the exterior   Оценивает качество материала, из которого выполнена внешняя отделка
 		
        Ex	Excellent
        Gd	Good
@@ -258,7 +258,7 @@ ExterQual: Evaluates the quality of the material on the exterior
        Fa	Fair
        Po	Poor
 		
-ExterCond: Evaluates the present condition of the material on the exterior
+ExterCond: Evaluates the present condition of the material on the exterior   Оценивает текущее состояние материала на внешней поверхности
 		
        Ex	Excellent
        Gd	Good
@@ -266,7 +266,7 @@ ExterCond: Evaluates the present condition of the material on the exterior
        Fa	Fair
        Po	Poor
 		
-Foundation: Type of foundation
+Foundation: Type of foundation    Тип фундамента
 		
        BrkTil	Brick & Tile
        CBlock	Cinder Block
@@ -275,7 +275,7 @@ Foundation: Type of foundation
        Stone	Stone
        Wood	Wood
 		
-BsmtQual: Evaluates the height of the basement
+BsmtQual: Evaluates the height of the basement   Оценивает высоту подвала
 
        Ex	Excellent (100+ inches)	
        Gd	Good (90-99 inches)
@@ -284,7 +284,7 @@ BsmtQual: Evaluates the height of the basement
        Po	Poor (<70 inches
        NA	No Basement
 		
-BsmtCond: Evaluates the general condition of the basement
+BsmtCond: Evaluates the general condition of the basement    Оценивает общее состояние подвала
 
        Ex	Excellent
        Gd	Good
@@ -293,7 +293,7 @@ BsmtCond: Evaluates the general condition of the basement
        Po	Poor - Severe cracking, settling, or wetness
        NA	No Basement
 	
-BsmtExposure: Refers to walkout or garden level walls
+BsmtExposure: Refers to walkout or garden level walls     Относится к стенам на уровне пешеходной дорожки или сада
 
        Gd	Good Exposure
        Av	Average Exposure (split levels or foyers typically score average or above)	
@@ -301,7 +301,7 @@ BsmtExposure: Refers to walkout or garden level walls
        No	No Exposure
        NA	No Basement
 	
-BsmtFinType1: Rating of basement finished area
+BsmtFinType1: Rating of basement finished area    Оценка готовой площади подвала
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -311,9 +311,9 @@ BsmtFinType1: Rating of basement finished area
        Unf	Unfinshed
        NA	No Basement
 		
-BsmtFinSF1: Type 1 finished square feet
+BsmtFinSF1: Type 1 finished square feet    Тип 1 готовые квадратные футы
 
-BsmtFinType2: Rating of basement finished area (if multiple types)
+BsmtFinType2: Rating of basement finished area (if multiple types)    Оценка готовой площади подвала (при наличии нескольких типов)
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -323,14 +323,14 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        Unf	Unfinshed
        NA	No Basement
 
-BsmtFinSF2: Type 2 finished square feet
+BsmtFinSF2: Type 2 finished square feet    Тип 2 готовые квадратные футы
 
-BsmtUnfSF: Unfinished square feet of basement area
+BsmtUnfSF: Unfinished square feet of basement area    Недостроенные квадратные метры подвальной площади
 
-TotalBsmtSF: Total square feet of basement area
-
-Heating: Type of heating
-		
+TotalBsmtSF: Total square feet of basement area       Общая площадь подвала в квадратных футах
+ 
+Heating: Type of heating                               Тип отопления
+		 
        Floor	Floor Furnace
        GasA	Gas forced warm air furnace
        GasW	Gas hot water or steam heat
@@ -338,7 +338,7 @@ Heating: Type of heating
        OthW	Hot water or steam heat other than gas
        Wall	Wall furnace
 		
-HeatingQC: Heating quality and condition
+HeatingQC: Heating quality and condition             Качество и состояние отопления
 
        Ex	Excellent
        Gd	Good
@@ -346,12 +346,12 @@ HeatingQC: Heating quality and condition
        Fa	Fair
        Po	Poor
 		
-CentralAir: Central air conditioning
+CentralAir: Central air conditioning                Центральное кондиционирование воздуха
 
        N	No
        Y	Yes
 		
-Electrical: Electrical system
+Electrical: Electrical system                       Электрическая система
 
        SBrkr	Standard Circuit Breakers & Romex
        FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
@@ -359,27 +359,27 @@ Electrical: Electrical system
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix	Mixed
 		
-1stFlrSF: First Floor square feet
+1stFlrSF: First Floor square feet         Площадь первого этажа в квадратных футах
  
-2ndFlrSF: Second floor square feet
+2ndFlrSF: Second floor square feet         Площадь второго этажа в квадратных футах
 
-LowQualFinSF: Low quality finished square feet (all floors)
+LowQualFinSF: Low quality finished square feet (all floors)      Квадратные метры с отделкой низкого качества (все этажи)
+ 
+GrLivArea: Above grade (ground) living area square feet            Жилая площадь надземной части (цокольный этаж), кв. фут
 
-GrLivArea: Above grade (ground) living area square feet
+BsmtFullBath: Basement full bathrooms                             Цокольный этаж с полностью оборудованными ванными комнатами
 
-BsmtFullBath: Basement full bathrooms
+BsmtHalfBath: Basement half bathrooms                               Половина ванных комнат на цокольном этаже
 
-BsmtHalfBath: Basement half bathrooms
+FullBath: Full bathrooms above grade                               Полностью оборудованные ванные комнаты высшего класса
 
-FullBath: Full bathrooms above grade
+HalfBath: Half baths above grade                                     Половина ванн высшего сорта
 
-HalfBath: Half baths above grade
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms)   Спальни выше класса (не включая спальни на цокольном этаже)
 
-Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+Kitchen: Kitchens above grade                                       Кухни высшего класса
 
-Kitchen: Kitchens above grade
-
-KitchenQual: Kitchen quality
+KitchenQual: Kitchen quality                                      Качество кухни
 
        Ex	Excellent
        Gd	Good
@@ -387,9 +387,9 @@ KitchenQual: Kitchen quality
        Fa	Fair
        Po	Poor
        	
-TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)   Общее количество номеров выше класса (без учета ванных комнат)
 
-Functional: Home functionality (Assume typical unless deductions are warranted)
+Functional: Home functionality (Assume typical unless deductions are warranted)   Функциональность дома (предполагается типичной, если только не требуются вычеты)
 
        Typ	Typical Functionality
        Min1	Minor Deductions 1
@@ -400,9 +400,9 @@ Functional: Home functionality (Assume typical unless deductions are warranted)
        Sev	Severely Damaged
        Sal	Salvage only
 		
-Fireplaces: Number of fireplaces
+Fireplaces: Number of fireplaces                                 Количество каминов
 
-FireplaceQu: Fireplace quality
+FireplaceQu: Fireplace quality                                      Качество камина
 
        Ex	Excellent - Exceptional Masonry Fireplace
        Gd	Good - Masonry Fireplace in main level
@@ -411,7 +411,7 @@ FireplaceQu: Fireplace quality
        Po	Poor - Ben Franklin Stove
        NA	No Fireplace
 		
-GarageType: Garage location
+GarageType: Garage location                       Расположение гаража
 		
        2Types	More than one type of garage
        Attchd	Attached to home
@@ -430,20 +430,11 @@ GarageFinish: Interior finish of the garage
        Unf	Unfinished
        NA	No Garage
 		
-GarageCars: Size of garage in car capacity
+GarageCars: Size of garage in car capacity          Размер гаража в пересчете на вместимость автомобиля
 
-GarageArea: Size of garage in square feet
+GarageArea: Size of garage in square feet          Размер гаража в квадратных футах
 
-GarageQual: Garage quality
-
-       Ex	Excellent
-       Gd	Good
-       TA	Typical/Average
-       Fa	Fair
-       Po	Poor
-       NA	No Garage
-		
-GarageCond: Garage condition
+GarageQual: Garage quality                         Качество гаража
 
        Ex	Excellent
        Gd	Good
@@ -452,25 +443,34 @@ GarageCond: Garage condition
        Po	Poor
        NA	No Garage
 		
-PavedDrive: Paved driveway
+GarageCond: Garage condition                      Состояние гаража
+
+       Ex	Excellent
+       Gd	Good
+       TA	Typical/Average
+       Fa	Fair
+       Po	Poor
+       NA	No Garage
+		
+PavedDrive: Paved driveway                        Мощеная подъездная дорожка
 
        Y	Paved 
        P	Partial Pavement
        N	Dirt/Gravel
 		
-WoodDeckSF: Wood deck area in square feet
+WoodDeckSF: Wood deck area in square feet   Деревянная веранда SF: Площадь деревянной веранды в квадратных футах
+   
+OpenPorchSF: Open porch area in square feet   Открытая веранда: Площадь открытой веранды в квадратных футах
 
-OpenPorchSF: Open porch area in square feet
+EnclosedPorch: Enclosed porch area in square feet   Закрытая веранда: Площадь закрытой веранды в квадратных футах
 
-EnclosedPorch: Enclosed porch area in square feet
+3SsnPorch: Three season porch area in square feet    3SsnPorch: Площадь трехсезонной веранды в квадратных футах
 
-3SsnPorch: Three season porch area in square feet
+ScreenPorch: Screen porch area in square feet     Сетчатая веранда: Площадь сетчатой веранды в квадратных футах
 
-ScreenPorch: Screen porch area in square feet
+PoolArea: Pool area in square feet          Площадь бассейна: Площадь бассейна в квадратных футах
 
-PoolArea: Pool area in square feet
-
-PoolQC: Pool quality
+PoolQC: Pool quality                    Контроль качества бассейна: Качество бассейна
 		
        Ex	Excellent
        Gd	Good
@@ -478,7 +478,7 @@ PoolQC: Pool quality
        Fa	Fair
        NA	No Pool
 		
-Fence: Fence quality
+Fence: Fence quality            Качество ограждения
 		
        GdPrv	Good Privacy
        MnPrv	Minimum Privacy
@@ -486,7 +486,7 @@ Fence: Fence quality
        MnWw	Minimum Wood/Wire
        NA	No Fence
 	
-MiscFeature: Miscellaneous feature not covered in other categories
+MiscFeature: Miscellaneous feature not covered in other categories  Разное функция, не включенная в другие категории
 		
        Elev	Elevator
        Gar2	2nd Garage (if not described in garage section)
@@ -495,30 +495,30 @@ MiscFeature: Miscellaneous feature not covered in other categories
        TenC	Tennis Court
        NA	None
 		
-MiscVal: $Value of miscellaneous feature
+MiscVal: $Value of miscellaneous feature                 Значение другой функции
 
-MoSold: Month Sold (MM)
+MoSold: Month Sold (MM)                       Проданный месяц
 
 YrSold: Year Sold (YYYY)
-
-SaleType: Type of sale
+ 
+SaleType: Type of sale                            Тип продажи
 		
-       WD 	Warranty Deed - Conventional
-       CWD	Warranty Deed - Cash
-       VWD	Warranty Deed - VA Loan
-       New	Home just constructed and sold
-       COD	Court Officer Deed/Estate
-       Con	Contract 15% Down payment regular terms
-       ConLw	Contract Low Down payment and low interest
-       ConLI	Contract Low Interest
-       ConLD	Contract Low Down
+       WD 	Warranty Deed - Conventional                  Обычный Гарантийный талон
+       CWD	Warranty Deed - Cash                       Наличными Гарантийный талон
+       VWD	Warranty Deed - VA Loan                      Кредит VA
+       New	Home just constructed and sold                Только что построенный и проданный новый дом
+       COD	Court Officer Deed/Estate                       Акт судебного исполнителя / Недвижимость
+       Con	Contract 15% Down payment regular terms          Первоначальный взнос по контракту 15% обычные условия
+       ConLw	Contract Low Down payment and low interest      Первоначальный взнос по контракту Низкий
+       ConLI	Contract Low Interest                          Низкий первоначальный взнос и низкие проценты По контракту
+       ConLD	Contract Low Down                                Низкие проценты
        Oth	Other
-		
-SaleCondition: Condition of sale
+  
+SaleCondition: Condition of sale                                 Условие продажи
 
-       Normal	Normal Sale
-       Abnorml	Abnormal Sale -  trade, foreclosure, short sale
-       AdjLand	Adjoining Land Purchase
-       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       Normal	Normal Sale               Нормальная продажа
+       Abnorml	Abnormal Sale -  trade, foreclosure, short sale   Ненормальная продажа - обмен, обращение взыскания, короткая продажа
+       AdjLand	Adjoining Land Purchase                           Покупка прилегающего земельного участка
+       Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unitРаспределение - два связанных объекта недвижимости с отдельными документами, как правило, кондоминиум с гаражом
        Family	Sale between family members
-       Partial	Home was not completed when last assessed (associated with New Homes)
+       Partial	Home was not completed when last assessed (associated with New Homes)         Дом не был достроен на момент последней оценки (связан с новыми домами)
