@@ -22,11 +22,11 @@ MSZoning: Identifies the general zoning classification of the sale. #Опред�
 		
        A	Agriculture
        C	Commercial
-       FV	Floating Village Residential
+       FV	Floating Village Residential   Жилой комплекс "Плавучая деревня"
        I	Industrial
-       RH	Residential High Density
+       RH	Residential High Density    Жилая застройка с высокой плотностью
        RL	Residential Low Density
-       RP	Residential Low Density Park 
+       RP	Residential Low Density Park     Жилой парк с низкой плотностью застройки
        RM	Residential Medium Density
 	
 LotFrontage: Linear feet of street connected to property #Линейные футы улицы, соединенной с объектом недвижимости
